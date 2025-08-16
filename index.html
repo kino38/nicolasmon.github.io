@@ -1,121 +1,58 @@
 <!DOCTYPE html>
-<html lang="es"> <!-- Define el idioma principal del documento -->
+<html lang="es">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nicolás Montañés | Portafolio</title>
+
+  <!-- Enlace al archivo CSS -->
   <link rel="stylesheet" href="css/style.css">
-  <meta charset="UTF-8"> <!-- Codificación de caracteres para soportar acentos y símbolos -->
-  <title>Nicolás Montañés - Ingeniero Electrónico</title> <!-- Título que aparece en la pestaña del navegador -->
-  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Hace que el sitio sea responsive en móviles -->
-
-  <!-- Estilos CSS internos para diseño básico -->
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif; /* Fuente moderna y legible */
-      background: #f2f2f2; /* Color de fondo gris claro */
-      margin: 0;
-      padding: 0;
-    }
-
-    .container {
-      max-width: 900px; /* Ancho máximo del contenido */
-      margin: auto; /* Centra el contenido horizontalmente */
-      background: white; /* Fondo blanco para el contenido */
-      padding: 30px; /* Espaciado interno */
-    }
-
-    h1, h2 {
-      color: #333; /* Color oscuro para títulos */
-    }
-
-    .section {
-      margin-bottom: 30px; /* Espacio entre secciones */
-    }
-
-    ul {
-      padding-left: 20px; /* Sangría para listas */
-    }
-
-    .tag {
-      background: #007acc; /* Color azul para etiquetas de habilidades */
-      color: white;
-      padding: 3px 8px;
-      border-radius: 4px;
-      margin-right: 5px;
-      font-size: 0.9em;
-    }
-  </style>
 </head>
-
 <body>
-  <!-- Contenedor principal de la página -->
-  <div class="container">
 
-    <!-- Encabezado con nombre y datos de contacto -->
+  <!-- Encabezado principal -->
+  <header>
     <h1>Nicolás Montañés Méndez</h1>
-    <p>
-      <strong>Email:</strong> nicolasmon8@gmail.com |
-      <strong>Tel:</strong> +57 3175995133 |
-      <strong>Ubicación:</strong> Bogotá, Colombia
-    </p>
-    <p>
-      <strong>LinkedIn:</strong>
-      <a href="https://www.linkedin.com/in/nicolas-montañes" target="_blank">Perfil</a>
-    </p>
+    <p>Ingeniero Electrónico | QA · Backend Java · Análisis de Datos</p>
+  </header>
 
-    <!-- Sección de perfil profesional -->
-    <div class="section">
-      <h2>Perfil Profesional</h2>
-      <p>
-        Ingeniero Electrónico con experiencia en QA, validación de sistemas VoIP, análisis de datos y desarrollo backend en Java.
-        Enfocado en resultados, automatización y calidad del dato.
-      </p>
-    </div>
+  <!-- Sección: Sobre mí -->
+  <section>
+    <h2>Sobre mí</h2>
+    <p>Apasionado por la automatización, la calidad de datos y el desarrollo backend. Busco oportunidades junior en Java donde pueda aplicar buenas prácticas y crecer profesionalmente.</p>
+  </section>
 
-    <!-- Sección de experiencia laboral -->
-    <div class="section">
-      <h2>Experiencia Profesional</h2>
-      <ul>
-        <li>
-          <strong>Identidad Technologies (2024–2025)</strong> – QA Analyst<br>
-          Pruebas funcionales VoIP, testeo de DIDs, análisis de rutas, coordinación técnica con SQL.
-        </li>
-        <li>
-          <strong>Enel Colombia (2023–2024)</strong> – Ingeniero en Práctica<br>
-          Automatización de reportes con Power BI, análisis de datos operativos, supervisión técnica.
-        </li>
-      </ul>
-    </div>
+  <!-- Sección: Habilidades técnicas -->
+  <section>
+    <h2>Habilidades técnicas</h2>
+    <ul>
+      <li>Scraping avanzado con Node.js y Python</li>
+      <li>Validación y deduplicación de datos</li>
+      <li>Visualización con Power BI y DAX</li>
+      <li>Control de calidad en sistemas VoIP</li>
+      <li>Desarrollo backend con Java</li>
+    </ul>
+  </section>
 
-    <!-- Sección de educación -->
-    <div class="section">
-      <h2>Educación</h2>
-      <ul>
-        <li>Ingeniería Electrónica – Universidad Manuela Beltrán (2018–2024)</li>
-        <li>Diplomado en Gestión de Proyectos – UMB (2024)</li>
-      </ul>
-    </div>
+  <!-- Sección: Proyectos destacados -->
+  <section>
+    <h2>Proyectos destacados</h2>
+    <ul>
+      <li><strong>Scraper de vacantes:</strong> Extracción y validación de ofertas laborales desde LinkedIn y Computrabajo.</li>
+      <li><strong>Portafolio web:</strong> Página personal editable en GitHub Pages con estructura profesional.</li>
+    </ul>
+  </section>
 
-    <!-- Sección de habilidades técnicas -->
-    <div class="section">
-      <h2>Habilidades Técnicas</h2>
-      <p>
-        <!-- Etiquetas visuales para destacar tus skills -->
-        <span class="tag">Java</span>
-        <span class="tag">Spring Boot</span>
-        <span class="tag">SQL</span>
-        <span class="tag">Power BI</span>
-        <span class="tag">Python</span>
-        <span class="tag">QA</span>
-        <span class="tag">Node.js</span>
-        <span class="tag">Excel avanzado</span>
-      </p>
-    </div>
+  <!-- Sección: Contacto -->
+  <section>
+    <h2>Contacto</h2>
+    <p>Puedes escribirme a <a href="mailto:nicolas.montanes@example.com">nicolas.montanes@example.com</a> o visitar mi <a href="https://github.com/nicolasmon" target="_blank">GitHub</a>.</p>
+  </section>
 
-    <!-- Sección de idiomas -->
-    <div class="section">
-      <h2>Idiomas</h2>
-      <p>Español (Nativo), Inglés (B2 – Conversacional)</p>
-    </div>
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Nicolás Montañés · Todos los derechos reservados</p>
+  </footer>
 
-  </div> <!-- Fin del contenedor principal -->
 </body>
 </html>
