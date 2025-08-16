@@ -1,3 +1,13 @@
-# Build folder and log file
-build/
-build.log
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.log
+*.tmp
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
