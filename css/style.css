@@ -1,0 +1,71 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Tipografía y colores base */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Encabezado principal */
+header {
+  background-color: #1e293b;
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+  opacity: 0.8;
+}
+
+/* Secciones */
+section {
+  margin: 40px 0;
+  padding: 20px;
+  background-color: #fff;
+  border-left: 5px solid #3b82f6;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* Títulos de sección */
+section h2 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  color: #1e40af;
+}
+
+/* Listas */
+ul {
+  list-style-type: none;
+}
+
+ul li::before {
+  content: "✔️";
+  margin-right: 8px;
+  color: #10b981;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 0.9em;
+  color: #666;
+}
+
