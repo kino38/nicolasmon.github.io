@@ -20,4 +20,4 @@ Este repositorio contiene mi página web profesional publicada con GitHub Pages.
 
 ## 📬 Contacto
 
-Puedes encontrarme en [LinkedIn](https://www.linkedin.com/in/nicolas-montanes) o escribirme a nicolas.montanes@example.com
+Puedes encontrarme en [LinkedIn](www.linkedin.com/in/nicolas-montañes-mendez-55238421a) o escribirme a nicolasmon8@gmail.com
