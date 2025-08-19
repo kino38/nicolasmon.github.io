@@ -11,3 +11,5 @@ Thumbs.db
 .vscode/
 *.iml
 
+# Ignorar un archivo notas
+notas.txt
