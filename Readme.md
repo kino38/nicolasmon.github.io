@@ -1,6 +1,6 @@
 # Página personal - Nicolás Montañés Méndez
 
-Este repositorio contiene mi página web profesional publicada con GitHub Pages. Aquí presento mi hoja de vida, proyectos destacados y habilidades técnicas como Ingeniero Electrónico enfocado en QA, análisis de datos y desarrollo backend en Java.
+Este repositorio contiene mi página web profesional publicada con GitHub Pages. Aquí presento mi hoja de vida y mis habilidades técnicas como Ingeniero Electrónico enfocado en QA, análisis de datos y desarrollo backend en Java.
 
 ## 🔗 Enlace público
 
